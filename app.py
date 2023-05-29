@@ -18,6 +18,6 @@ if img:
     result = rgb_to_word(A, img)
     image = np.array(Image.open(img))
     st.image(image, caption="アップロードされた画像", use_column_width=True)
-    st.markdown("""
-        **:orange[{result}な画像ですね！！]
+    st.markdown(f"""
+        {result}な画像ですね！！
     """)
