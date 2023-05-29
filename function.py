@@ -37,5 +37,5 @@ def rgb_to_word(A, file_path):
     x = gen_color_vec(ext_mean_rgb(file_path))
     result = np.dot(A, x)
     max_index = np.argmax(result.reshape(-1, 1))
-    impreword = ["明るい", "暗い", "かわいい", "悲しい", "情熱", "冷静", "自然"]
+    impreword = ["楽しげ", "悲しい", "しあわせ", "寂しい", "情熱", "孤独", "安らぎ"]
     return impreword[max_index]
