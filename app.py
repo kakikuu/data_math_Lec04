@@ -19,5 +19,5 @@ if img:
     image = np.array(Image.open(img))
     st.image(image, caption="アップロードされた画像", use_column_width=True)
     st.markdown(f"""
-        {result}な画像ですね！！
+        選ばれた印象語は**「{result}」**です！！
     """)
