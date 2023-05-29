@@ -1,5 +1,5 @@
 import streamlit as st
-from test import rgb_to_word
+from function import rgb_to_word
 import numpy as np
 from PIL import Image
 
